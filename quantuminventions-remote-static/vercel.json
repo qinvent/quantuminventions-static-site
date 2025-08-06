@@ -1,0 +1,68 @@
+{
+  "version": 2,
+  "name": "quantuminventions-static",
+  "builds": [
+    {
+      "src": "www.quantuminventions.com/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/index.html",
+      "status": 301,
+      "headers": { "Location": "/" }
+    },
+    {
+      "src": "/index.html@p=(.*)",
+      "dest": "/page/$1"
+    },
+    {
+      "src": "/index.html@post_type=(.*)",
+      "dest": "/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/www.quantuminventions.com/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/www.quantuminventions.com/index.html",
+      "status": 404
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
+      ]
+    },
+    {
+      "source": "/(.*\\.(css|js|jpg|png|gif|svg|woff2|woff|ttf|eot))",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
+}

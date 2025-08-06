@@ -1,0 +1,106 @@
+[build]
+  # No build command needed - static files ready to deploy
+  publish = "www.quantuminventions.com"
+
+[build.environment]
+  # Environment variables (if needed)
+  NODE_VERSION = "18"
+
+# Headers for better performance and security
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+# Cache static assets
+[[headers]]
+  for = "*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "*.jpg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "*.png"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "*.gif"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "*.svg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "*.woff2"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "*.woff"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "*.ttf"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Redirects for clean URLs
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+  status = 301
+
+# Handle WordPress-style parameter URLs
+[[redirects]]
+  from = "/index.html@p=*"
+  to = "/page/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/index.html@post_type=*"
+  to = "/:splat"
+  status = 301
+
+# 404 handling - serve main index.html for any missing pages
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 404
+
+# Form handling (if you have contact forms)
+# [[redirects]]
+#   from = "/contact"
+#   to = "/contact-success"
+#   status = 200
+#   conditions = {Role = ["form-submission"]}
+
+# Security settings
+[context.production.environment]
+  HUGO_VERSION = "0.58.2"
+  HUGO_ENV = "production"
+  HUGO_ENABLEGITINFO = "true"
+
+# Branch-specific settings
+[context.branch-deploy]
+  command = "echo 'Branch deploy - no build needed'"
+
+[context.deploy-preview]
+  command = "echo 'Deploy preview - no build needed'"

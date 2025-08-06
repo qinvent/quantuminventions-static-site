@@ -1,0 +1,219 @@
+/* Import Google Font */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+
+/* Icon Style */
+
+#iwpmenu_icon .iwpmenu_open_button,
+#iwpmenu_icon .iwpmenu_close_button {
+	display: block;
+	width: 24px;
+	height: 24px;
+	position: fixed;
+	top: 35px;
+	left: 35px;
+	cursor: pointer;
+	z-index: 999992;
+}
+
+#iwpmenu_icon .iwpmenu_close_button {
+	display: none;
+}
+
+
+.hamburger_layer {
+	fill: #000;
+}
+
+.close_layer {
+	fill: #fff;
+}
+
+#iwpmenu_icon .iwpmenu_button.open {
+}
+/* Bar Style */
+
+#iwpmenu_bar {
+	display: none;
+	position: fixed;
+	top: 0px;
+	left: -300px;
+	width: 300px;
+	height: 100%;
+	background: #000000;
+	opacity: 1;
+	z-index: 999991;
+	border-right: 1px solid #ffffff;
+	}
+
+#iwpmenu_bar.open {
+	
+}
+
+#iwpmenu_bar div {
+	margin: 0px auto 0px;
+	padding-top: 0px;
+		height: 100%;
+		z-index: 9999;
+}
+
+/* Items Style */
+
+/* List General Style */
+
+#iwpmenu_bar div ul {
+		padding: 70px 20px 50px 20px;
+		list-style: none;
+		text-align: center;
+		background: none;
+	height: 100%;
+	overflow-y: scroll;
+	position: relative;
+}
+
+#iwpmenu_bar div ul li ul.sub-menu li {
+	max-height: 0px;
+	-webkit-transition: max-height .2s ease-out;
+	   -moz-transition: max-height .2s ease-out;
+	    -ms-transition: max-height .2s ease-out;
+	     -o-transition: max-height .2s ease-out;
+}
+
+#iwpmenu_bar div ul li ul.sub-menu li.expanded {
+	max-height: 1000px;
+	-webkit-transition: max-height .2s ease-out;
+	   -moz-transition: max-height .2s ease-out;
+	    -ms-transition: max-height .2s ease-out;
+	     -o-transition: max-height .2s ease-out;
+}
+
+/* First Level Style */
+#iwpmenu_bar div ul.menu li a {
+	color: #ffffff;
+	background: none;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: normal;
+	text-decoration: none;
+	line-height: 18px;
+	-webkit-transition: all .2s ease-out;
+	   -moz-transition: all .2s ease-out;
+	    -ms-transition: all .2s ease-out;
+	     -o-transition: all .2s ease-out;
+}
+
+#iwpmenu_bar div ul.menu li a:hover {
+	color: #aaa;
+	-webkit-transition: all .2s ease-out;
+	   -moz-transition: all .2s ease-out;
+	    -ms-transition: all .2s ease-out;
+	     -o-transition: all .2s ease-out;
+}
+
+#iwpmenu_bar div ul.menu li.menu-item-has-children>a:after {
+	content: '\f0d7';
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	margin-left: 5px;
+	color: #ffffff;
+}
+
+#iwpmenu_bar div ul.menu li.menu-item-has-children>a:hover:after {
+	content: '\f0d7';
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	margin-left: 5px;
+	color: #aaa;
+}
+
+/* Second Level Style */
+
+#iwpmenu_bar div ul.menu ul.sub-menu {
+	background: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* Open Sub Item Animtion */
+#iwpmenu_bar div ul.menu li.menu-item-has-children.open ul.sub-menu {
+
+}
+
+#iwpmenu_bar div ul.menu li.menu-item-has-children ul.sub-menu li {
+	opacity: 0;
+	-webkit-transition: all .2s ease-out;
+	   -moz-transition: all .2s ease-out;
+	    -ms-transition: all .2s ease-out;
+	     -o-transition: all .2s ease-out;
+}
+
+#iwpmenu_bar div ul.menu li.menu-item-has-children ul.sub-menu li.expanded {
+	opacity: 1;
+	-webkit-transition: all .2s ease-in;
+	   -moz-transition: all .2s ease-in;
+	    -ms-transition: all .2s ease-in;
+	     -o-transition: all .2s ease-in;
+}
+
+#iwpmenu_bar div ul.menu li.menu-item-has-children.open>a:after {
+	-webkit-transform: rotate(180deg);
+       -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+         -o-transform: rotate(180deg);
+            transform: rotate(180deg);
+	-webkit-transition: all .2s ease-in-out;
+	   -moz-transition: all .2s ease-in-out;
+	    -ms-transition: all .2s ease-in-out;
+	     -o-transition: all .2s ease-in-out;
+}
+
+#iwpmenu_bar div ul.menu li.menu-item-has-children>a:after {
+	-webkit-transform: rotate(0deg);
+       -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+         -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+	-webkit-transition: all .2s ease-in-out;
+	   -moz-transition: all .2s ease-in-out;
+	    -ms-transition: all .2s ease-in-out;
+	     -o-transition: all .2s ease-in-out;
+}
+
+
+#iwpmenu_bar div ul.menu ul.sub-menu li a {
+	color: #ffffff;
+	background: none;
+	margin: 0 0;
+	padding: 0;
+	font-size: 14px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: normal;
+}
+
+#iwpmenu_bar div ul.menu ul.sub-menu li a:hover {
+	color: #aaa;
+}
+
+/* Sub Item Text Indent */
+
+#iwpmenu_bar div ul.menu ul.sub-menu {
+	margin-left: 10px;
+}
+
+#iwpmenu_bar div ul.menu ul.sub-menu ul.sub-menu {
+	margin-left: 10px;
+}
+
+#iwpmenu_bar div ul.menu ul.sub-menu ul.sub-menu ul.sub-menu {
+	margin-left: 10px;
+}
+
+#iwpmenu_bar div ul.menu ul.sub-menu ul.sub-menu ul.sub-menu ul.sub-menu {
+	margin-left: 10px;
+}
+
+#iwpmenu_bar div ul.menu ul.sub-menu ul.sub-menu ul.sub-menu ul.sub-menu ul.sub-menu {
+	margin-left: 10px;
+}
