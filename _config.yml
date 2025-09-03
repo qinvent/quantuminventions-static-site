@@ -1,0 +1,9 @@
+exclude:
+  - README.md
+  - PROJECT_SUMMARY.md
+  - CLOUDFLARE_DEPLOYMENT_SUMMARY.md
+  - quantuminventions-remote-static/
+  - wrangler.toml
+  - .gitignore
+  - .git/
+  - .wrangler/
