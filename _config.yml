@@ -1,3 +1,4 @@
+source: pages
 exclude:
   - README.md
   - PROJECT_SUMMARY.md
