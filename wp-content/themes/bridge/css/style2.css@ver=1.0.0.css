@@ -1,0 +1,2763 @@
+table.car {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th.carh, td.card {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th.car {
+    background-color: #4CAF50;
+    color: white;
+}
+.div-table{
+  display:table;         
+  width:800px;         
+  background-color:#eee;         
+  border:1px solid  #666666;         
+  border-spacing:5px;/*cellspacing:poor IE support for  this*/
+}
+.div-table-row{
+  display:table-row;
+  width:auto;
+  clear:both;
+}
+.div-table-col{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:200px;         
+  background-color:#ccc;  
+}
+#gridcontainer{margin: 20px 0; width: 100%; }
+#gridcontainer h2 a{color: #77787a; font-size: 13px;}
+#gridcontainer .griditemleft{float: left; width: 278px; margin: 0 40px 40px 0;}
+#gridcontainer .griditemright{float: left; width: 278px;}
+#gridcontainer .postimage{margin: 0 0 10px 0;}
+ul{
+    font-family: sans-serif;
+    text-align: left;
+    
+}
+
+
+.wrapper-up {
+   margin-top: -25px;
+   z-index: 999;
+}
+
+.wrapper-up2 {
+   margin-top: -25px;
+   z-index: 300;
+}
+.tcen{
+
+  align:center;
+}
+
+ul.bycategories {
+margin: 0;
+padding: 0;
+
+}
+ul.bycategories li {
+list-style: none; 
+list-style-type: none;
+margin: 0; 
+padding: 0;
+}
+ul.bycategories li a {
+list-style: none; 
+list-style-type: none;
+margin: 0 20px 15px 0; 
+float: left; 
+background:transparent; 
+color: #fff;
+text-transform: uppercase;
+padding: 5px 10px;
+border-radius: 0px; 
+-moz-border-radius: 0px; 
+-webkit-border-radius: 0px;
+}
+
+/*
+ul.bycategories li a:hover{
+text-decoration: none; 
+background: transparent; 
+color: #fff;
+border-bottom: 2px solid white;
+
+}
+
+
+*/
+.clear{clear: both;}
+
+div.ribwidth{
+  width: 61%;
+}
+
+.hy {
+    width: 66%;
+    margin: 0px auto;
+}
+
+.hy2 {
+    width: 60%;
+    margin: 0px auto;
+}
+
+
+/* style for connected navigation system */
+/* not effected
+.page-id-1774 .thuml {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/01/2-1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+       margin-left: 185px;
+    margin-top: -4px;
+}
+.page-id-1774 .thumr {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/01/2-1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+    margin-left: 172px;
+    margin-top: -16px;
+}
+
+.page-id-1774 .thumc {
+    padding-left: 206px;
+    margin-bottom: -78px;
+}
+
+.page-id-1774 .ntop {
+    padding-right: 45px;
+}
+
+.page-id-1774 .divpiat1{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2a1-connected-benefits-1-1.jpg") !important;
+
+}
+
+.page-id-1774 .divpiat2{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2a1-connected-benefits-2.jpg");
+ 
+
+}
+
+.page-id-1774 .divpiat3{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2a1-connected-benefits-3.jpg");
+  
+}
+
+.page-id-1774 .divpiat4{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2a1-connected-benefits-4.jpg");
+
+
+}
+
+.page-id-1774 .divpiat5{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2a1-connected-benefits-5.jpg");
+
+
+}
+.page-id-1774 p.min_contant.seamless {
+    padding-top: 0px;
+    padding-left: 19px;
+}
+
+.page-id-1774 h4.drive_sec {
+    padding-top: 27px;
+    padding-left: 20px;
+    color: #fff;
+}
+
+/** 
+
+On page custom csss Start Date: 09.02.2017
+
+
+**/
+/*level 1*/
+
+/* About us page page-id-143 */
+
+.page-id-143 .vb-ho{
+    
+    padding-left: 74px;
+    padding-right: 80px;
+}
+
+.page-id-143 a.compan_text:after {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin: 10px auto 0;
+    background: #fff;
+}
+
+.page-id-143 .divlab{
+    
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/4-about-bg-mission.jpg");
+    height: 208px;
+}
+.page-id-143 .plab{
+    
+    color:#fff;
+}
+
+.page-id-143 .divlab2{
+    
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/4-about-bg-vision.jpg");
+    height: 208px;
+}
+
+.page-id-143 .content1_a {
+    background: #28282e;
+    padding: 4px;
+    min-height: 150px;
+    margin: auto;
+    width: 215px;
+}
+
+.page-id-143 .divpica{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/01/qi-template-4-1.png"); 
+    height: 150px;
+    width: 350px;
+
+}
+
+.page-id-143 .divpica2{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/About-us-icon.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+    height: 273px;
+    width: 950px;
+
+}
+
+.page-id-143 .hu {
+    padding-right: 104px;
+}
+
+.page-id-143 .hu2 {
+    padding-left: 166px;
+}
+.page-id-143 .redb {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    z-index: 8;
+    position: absolute;
+    top: 172px;
+    right: 206px;
+    opacity: 0.4;
+}
+
+
+.page-id-143 .qilo{
+    
+     background-image: url("http://52.76.165.56/wp-content/uploads/2017/01/qi-template-4-1m.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+   
+    height: 301px;
+    width: 301px;
+    padding-left: 61px;
+    
+}
+
+ .page-id-143 .benefit_wrapper .benefits_content_wrapper .benefits_section{
+    padding: 40px;
+    min-height: 150px;
+    margin: auto;
+    background-repeat: no-repeat;
+}
+
+.page-id-143 .benefit_wrapper .benefits_content_wrapper .benefits_content2 {
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/abouts-bg-values-1.jpg");
+
+}
+
+
+ .page-id-143 .benefit_wrapper .benefits_content_wrapper .benefits_content3 {
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/abouts-bg-values-2.jpg");
+  
+}
+
+ .page-id-143 .benefit_wrapper .benefits_content_wrapper .benefits_content4 {
+     background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/abouts-bg-values-3.jpg");
+}
+
+ .page-id-143 .benefit_wrapper .benefits_content_wrapper .benefits_content5 {
+     background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/abouts-bg-values-4.jpg");
+}
+
+
+ .page-id-143 .benefit_wrapper .benefits_content_wrapper .benefits_content6 {
+     background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/abouts-bg-values-5.jpg");
+}
+
+ .page-id-143 .benefit_wrapper .benefits_content_wrapper .benefits_content7 {
+     background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/abouts-bg-values-6.jpg");
+}
+
+
+
+
+.page-id-143 .benefit_wrapper .benefits_content_wrapper .benefits_section h4 {
+    color: #fff;
+    font-family: 'dincondmediumopentype';
+    font-size: 26px;
+    font-weight: 600;
+    min-height: 44px;
+}
+
+.page-id-143 .benefit_wrapper .benefits_content_wrapper .benefits_section p {
+    color: #fff;
+    font-family: 'SanFranciscoDisplayRegular' !important;
+    font-size: 16px;
+}
+
+.page-id-143 .vc_column-inner2s {
+    box-sizing: border-box;
+    padding-left: 81px;
+    padding-right: 81px;
+    width: 100%;
+}
+
+/* end */
+
+/*Level 2 */
+/* about section */
+/* our company page page-id-2466  */
+
+.page-id-2466 .vb-ho{
+    
+    padding-left: 74px;
+    padding-right: 80px;
+}
+
+.page-id-2466 a.compan_text:after {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin: 10px auto 0;
+    background: #fff;
+}
+
+
+.page-id-2466 .divlab{
+    
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/4-about-bg-mission.jpg");
+     height: 208px;
+}
+.page-id-2466 .plab{
+    
+    color:#fff;
+}
+
+.page-id-2466 .divlab2{
+    
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/4-about-bg-vision.jpg");
+    height: 208px;
+}
+
+.page-id-2466 .content1_a {
+    background: #28282e;
+    padding: 4px;
+    min-height: 150px;
+    margin: auto;
+    width: 215px;
+}
+
+.page-id-2466 .divpica{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/01/qi-template-4-1.png"); 
+    height: 150px;
+    width: 350px;
+
+}
+
+.page-id-2466 .divpica2{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/About-us-icon.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+    height: 273px;
+    width: 950px;
+
+}
+
+.page-id-2466 .hu {
+    padding-right: 104px;
+}
+
+.page-id-2466 .hu2 {
+    padding-left: 166px;
+}
+.page-id-2466 .redb {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    z-index: 8;
+    position: absolute;
+    top: 172px;
+    right: 206px;
+    opacity: 0.4;
+}
+
+
+.page-id-2466 .qilo{
+    
+     background-image: url("http://52.76.165.56/wp-content/uploads/2017/01/qi-template-4-1m.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+   
+    height: 301px;
+    width: 301px;
+    padding-left: 61px;
+    
+}
+
+ .page-id-2466 .benefit_wrapper .benefits_content_wrapper .benefits_section{
+    padding: 40px;
+    min-height: 150px;
+    margin: auto;
+    background-repeat: no-repeat;
+}
+
+.page-id-2466 .benefit_wrapper .benefits_content_wrapper .benefits_content2 {
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/abouts-bg-values-1.jpg");
+
+}
+
+
+ .page-id-2466 .benefit_wrapper .benefits_content_wrapper .benefits_content3 {
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/abouts-bg-values-2.jpg");
+  
+}
+
+ .page-id-2466 .benefit_wrapper .benefits_content_wrapper .benefits_content4 {
+     background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/abouts-bg-values-3.jpg");
+}
+
+ .page-id-2466 .benefit_wrapper .benefits_content_wrapper .benefits_content5 {
+     background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/abouts-bg-values-4.jpg");
+}
+
+
+ .page-id-2466 .benefit_wrapper .benefits_content_wrapper .benefits_content6 {
+     background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/abouts-bg-values-5.jpg");
+}
+
+ .page-id-2466 .benefit_wrapper .benefits_content_wrapper .benefits_content7 {
+     background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/abouts-bg-values-6.jpg");
+}
+
+
+
+
+.page-id-2466 .benefit_wrapper .benefits_content_wrapper .benefits_section h4 {
+    color: #fff;
+    font-family: 'dincondmediumopentype' !important;
+    font-size: 26px;
+    font-weight: 600;
+    min-height: 44px;
+}
+
+.page-id-2466 .benefit_wrapper .benefits_content_wrapper .benefits_section p {
+    color: #fff;
+    font-family: 'SanFranciscoDisplayRegular' !important;
+    font-size: 16px;
+}
+
+.page-id-2466 .vc_column-inner2s {
+    box-sizing: border-box;
+    padding-left: 81px;
+    padding-right: 81px;
+    width: 100%;
+}
+
+/* end */
+
+/* Managemet team page page-id-199  */
+
+.page-id-199 .text_div ul.travel_butllets li {
+    padding-bottom: 10px;
+}
+
+.page-id-199 a.manage_team:after {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin: 10px auto 0;
+    background: #fff;
+}
+
+.page-id-199 .redimg {
+    background-color: #d04f57;
+    height: 178px;
+    width: 271px;
+}
+
+/* end */
+/* industries section */
+
+/* Consumers page page-id-19  */
+
+
+.page-id-19 .pull-right {
+    float: right;
+}
+.page-id-19 .pull-left {
+    float: left;
+}
+.page-id-19 .jo {
+   background: #28282e;
+    padding: 4px;
+    min-height: 15px;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+}
+.page-id-19 .jop {
+    padding: 39px;
+    height: 151px;
+    margin: auto;
+    color: #fff;
+}
+
+.page-id-19 .thuml {
+   background-image: url(http://52.76.165.56/wp-content/uploads/2017/01/22.jpg);
+   background-size: 100%;
+   background-repeat: no-repeat;
+   height: 130px;
+   width: 150px;
+   float: right;
+   margin-right: 56px;
+   padding-left: 0px;
+   margin-top: -13px;
+}
+.page-id-19 .thumr {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/01/2-1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+    margin-left: 172px;
+    margin-top: -16px;
+}
+
+.page-id-19 .thuml_download {
+   float: left;
+   z-index: 1;
+}
+.page-id-19 .thuml_download a {
+    background: url(http://52.76.165.56/wp-content/uploads/2017/02/res.png) no-repeat;
+   width: 90px;
+   height: 32px;
+    display: inline-block;
+   background-size: 100%;
+    margin-right: 5px;
+}
+.page-id-19 .thuml_download a:last-child {margin-right:0 !important;}
+.googleplay {
+   background-position: 0 -32px !important;
+}
+.page-id-19 .appstore {
+   background-position: 0 0 !important;
+}
+
+.page-id-19 .thumc {
+    padding-left: 206px;
+    margin-bottom: -78px;
+}
+
+.page-id-19 .ntop {
+    padding-right: 45px;
+}
+
+.page-id-19 .divpiat1{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/1a-consumer-benefits-1.jpg") !important;
+
+}
+
+.page-id-19 .divpiat2{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2016/09/1a-consumer-benefits-2.jpg");
+ 
+
+}
+
+.page-id-19 .divpiat3{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2016/09/1a-consumer-benefits-3.jpg");
+  
+}
+
+.page-id-19 .divpiat4{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2016/09/1a-consumer-benefits-4.jpg");
+
+
+}
+
+.page-id-19 p.min_contant.seamless {
+    padding-top: 80px;
+    padding-left: 19px;
+}
+
+/* end */
+
+/* Automotive page page-id-21  */
+
+.page-id-21 .pull-right {
+    float: right;
+}
+.page-id-21 .pull-left {
+    float: left;
+}
+.page-id-21 .jo {
+    background: #28282e;
+    padding: 4px;
+    min-height: 15px;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+}
+.page-id-21 .jop {
+    background: #28282e;
+    padding: 39px;
+    height: 151px;
+    margin: auto;
+    color: #fff;
+}
+
+.page-id-21 .thuml {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/02/connected-navigation-solution.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+       margin-left: 76px;
+    margin-top: -13px;
+}
+.page-id-21 .thumr {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/01/2-1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+    margin-left: 172px;
+    margin-top: -16px;
+}
+
+.page-id-21 .thumc {
+    padding-left: 206px;
+    margin-bottom: -78px;
+}
+
+.page-id-21 .ntop {
+    padding-right: 45px;
+}
+
+.page-id-21 .divpiat1{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/1b-automotive-benefits-1-1.jpg") !important;
+
+}
+
+.page-id-21 .divpiat2{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/1b-automotive-benefits-2.jpg");
+ 
+
+}
+
+.page-id-21 .divpiat3{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/1b-automotive-benefits-3.jpg");
+  
+}
+
+.page-id-21 .divpiat4{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/1b-automotive-benefits-4.jpg");
+
+
+}
+
+.page-id-21 .divpiat5{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/1b-automotive-benefits-5.jpg");
+
+
+}
+
+.page-id-21 .divpiat6{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/1b-automotive-benefits-6.jpg");
+
+
+}
+.page-id-21 p.min_contant.seamless {
+    padding-top: 80px;
+    padding-left: 19px;
+}
+
+/* end */
+
+
+/* Logistics page page-id-1783  */
+
+
+.page-id-1783 .pull-right {
+    float: right;
+}
+.page-id-1783 .pull-left {
+    float: left;
+}
+.page-id-1783 .jo {
+    background: #28282e;
+    padding: 4px;
+    min-height: 15px;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+}
+.page-id-1783 .jop {
+    background: #28282e;
+    padding: 39px;
+    height: 151px;
+    margin: auto;
+    color: #fff;
+}
+
+.page-id-1783 .thuml {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/01/22.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+       margin-left: 172px;
+    margin-top: -13px;
+}
+.page-id-1783 .thumr {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/02/fleet-management-solution.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+    margin-left: 172px;
+    margin-top: -16px;
+}
+
+.page-id-1783 .thumc {
+    padding-left: 206px;
+    margin-bottom: -78px;
+}
+
+.page-id-1783 .ntop {
+    padding-right: 45px;
+}
+
+.page-id-1783 .divpiat1{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/1c-logistics-benefits-1-1.jpg") !important;
+
+}
+
+.page-id-1783 .divpiat2{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/1c-logistics-benefits-2.jpg");
+ 
+
+}
+
+.page-id-1783 .divpiat3{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/1c-logistics-benefits-3.jpg");
+  
+}
+
+.page-id-1783 p.min_contant.seamless {
+    padding-top: 80px;
+    padding-left: 19px;
+}
+
+/* end */
+
+/* Govt and enterprise page page-id-23  */
+
+
+.page-id-23 .pull-right {
+    float: right;
+}
+.page-id-23 .pull-left {
+    float: left;
+}
+.page-id-23 .jo {
+    background: #28282e;
+    padding: 4px;
+    min-height: 15px;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+}
+.page-id-23 .jop {
+    background: #28282e;
+    padding: 39px;
+    height: 151px;
+    margin: auto;
+    color: #fff;
+}
+
+.page-id-23 .thuml {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/02/smart-city-solutions.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+       margin-left: 172px;
+    margin-top: -13px;
+}
+.page-id-23 .thumr {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/02/data-analytics-capabilities.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+    margin-left: 172px;
+    margin-top: -16px;
+}
+
+.page-id-23 .thumc {
+    padding-left: 206px;
+    margin-bottom: -78px;
+}
+
+.page-id-23 .ntop {
+    padding-right: 45px;
+}
+
+.page-id-23 .divpiat1{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/1d-goverment-benefits-1-1.jpg") !important;
+
+}
+
+.page-id-23 .divpiat2{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/1d-goverment-benefits-2.jpg");
+ 
+
+}
+
+.page-id-23 .divpiat3{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/1d-goverment-benefits-3.jpg");
+  
+}
+
+.page-id-23 .divpiat4{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/1d-goverment-benefits-4.jpg");
+
+
+}
+
+.page-id-23 .divpiat5{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/1d-goverment-benefits-5.jpg");
+
+
+}
+
+.page-id-23 .divpiat6{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/1d-goverment-benefits-6.jpg");
+
+
+}
+
+.page-id-23 .divpiat7{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/1d-goverment-benefits-7.jpg");
+
+
+}
+
+.page-id-23 .divpiat8{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/1d-goverment-benefits-8.jpg");
+
+
+}
+
+
+.page-id-23 p.min_contant.seamless {
+    padding-top: 80px;
+    padding-left: 19px;
+}
+
+/* end */
+
+/** product section **/
+
+/* Products page page-id-1823  */
+
+
+.page-id-1823 .pull-right {
+    float: right;
+}
+.page-id-1823 .pull-left {
+    float: left;
+}
+
+/* end */
+
+/* Technologies page page-id-1864  */
+
+
+
+.page-id-1864 .pull-right {
+    float: right;
+}
+.page-id-1864 .pull-left {
+    float: left;
+}
+
+.page-id-1864 strong.sep {
+    border-bottom: solid 4px #c52730;
+    display: inline-block;
+    width: 51px;
+}
+
+/* end */
+
+/** Solution Section  **/
+/** level 2 **/
+
+/* GIS GPS page page-id-1767  */
+
+.page-id-1767 .pull-right {
+    float: right;
+}
+.page-id-1767 .pull-left {
+    float: left;
+}
+.page-id-1767 .img_show {
+    margin-top: 131px;
+    margin-left: 11px;
+}
+
+
+/* Fleet management */
+
+/* Fleet Management page page-id-1796  */
+
+
+.page-id-1796 .pull-right {
+    float: right;
+}
+.page-id-1796 .pull-left {
+    float: left;
+}
+.page-id-1796 .img_show {
+    margin-top: 131px;
+    margin-left: 11px;
+}
+
+.page-id-1796 .thuml {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/01/22.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+    margin-left: 216px;
+    margin-top: -67px;
+}
+.page-id-1796 .thumr {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/01/2-1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+    margin-left: 172px;
+    margin-top: -16px;
+}
+
+.page-id-1796 .thumc {
+    padding-left: 206px;
+    margin-bottom: -78px;
+}
+
+.page-id-1796 .ntop {
+    padding-right: 45px;
+}
+
+/* end */
+
+/* Smart city analytics page page-id-1813  */
+
+
+.page-id-1813 .pull-right {
+    float: right;
+}
+.page-id-1813 .img_show {
+    margin-top: 131px;
+    margin-left: 11px;
+}
+
+/* end */ 
+
+/** Products section **/
+/** level 3 **/
+
+/* Galactio page page-id-1821  */
+
+
+.page-id-1821 .thuml {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/01/2-1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+       margin-left: 172px;
+    margin-top: -13px;
+}
+.page-id-1821 .thumr {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/01/2-1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+    margin-left: 172px;
+    margin-top: -16px;
+}
+
+.page-id-1821 .thumc {
+    padding-left: 206px;
+    margin-bottom: -78px;
+}
+
+.page-id-1821 .ntop {
+    padding-right: 45px;
+}
+
+
+.page-id-1821 .divpiat1{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/3a1-galactio-benefits-1.jpg") !important;
+
+}
+
+.page-id-1821 .divpiat2{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/3a1-galactio-benefits-2.jpg");
+ 
+
+}
+
+.page-id-1821 .divpiat3{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/3a1-galactio-benefits-3.jpg");
+  
+}
+
+.page-id-1821 .divpiat4{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/3a1-galactio-benefits-4.jpg");
+
+
+}
+
+.page-id-1821 .divpiat5{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/3a1-galactio-benefits-5.jpg");
+
+
+}
+.page-id-1821 .divpiat6{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/3a1-galactio-benefits-6.jpg");
+
+
+}
+.page-id-1821 .divpiat7{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/3a1-galactio-benefits-7.jpg");
+
+
+}
+.page-id-1821 p.min_contant.seamless {
+    padding-top: 80px;
+    padding-left: 19px;
+}
+
+
+/* Tracksync page page-id-1825  */
+
+
+.page-id-1825 .thuml {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/02/tracksynq.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+       margin-left: 172px;
+    margin-top: -13px;
+}
+.page-id-1825 .thumr {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/02/ABOUT-OUR-VEHICLE-TRACKING-CAPABILITIES.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+    margin-left: 172px;
+    margin-top: -16px;
+}
+
+.page-id-1825 .thumc {
+    padding-left: 206px;
+    margin-bottom: -78px;
+}
+
+.page-id-1825 .ntop {
+    padding-right: 45px;
+}
+
+.page-id-1825 .divpiat1{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/3a2-tracksynq-benefits-1.jpg") !important;
+
+}
+
+.page-id-1825 .divpiat2{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/3a2-tracksynq-benefits-2-2.jpg");
+ 
+
+}
+
+.page-id-1825 .divpiat3{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/3a2-tracksynq-benefits-3.jpg");
+  
+}
+
+.page-id-1825 .divpiat4{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/3a2-tracksynq-benefits-4-1.jpg");
+
+
+}
+.page-id-1825 .divpiat5{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/3a2-tracksynq-benefits-5-1.jpg");
+
+
+}
+.page-id-1825 .divpiat6{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/3a2-tracksynq-benefits-6-1.jpg");
+
+
+}
+
+.page-id-1825 .divpiat7{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/3a2-tracksynq-benefits-7-1.jpg");
+
+
+}
+
+.page-id-1825 p.min_contant.seamless {
+    padding-top: 0px !important;
+    padding-left: 19px;
+}
+
+
+.page-id-1825 h4.drive_sec {
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #fff;
+}
+
+
+
+/* end */
+
+/* Tracksync plus page page-id-1827  */
+
+
+.page-id-1827 .thuml {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/02/TRACKSYNQ-PLUS.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+       margin-left: 172px;
+    margin-top: -13px;
+}
+.page-id-1827 .thumr {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/02/workforce-management.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+    margin-left: 172px;
+    margin-top: -16px;
+}
+
+.page-id-1827 .thumc {
+    padding-left: 206px;
+    margin-bottom: -78px;
+}
+
+.page-id-1827 .ntop {
+    padding-right: 45px;
+}
+
+.page-id-1827 .divpiat1{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/3a3-tracksynq-plus-benefits-1.jpg") !important;
+
+}
+
+.page-id-1827 .divpiat2{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/3a3-tracksynq-plus-benefits-2.jpg");
+ 
+
+}
+
+.page-id-1827 .divpiat3{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/3a3-tracksynq-plus-benefits-3.jpg");
+  
+}
+
+.page-id-1827 .divpiat4{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/3a3-tracksynq-plus-benefits-4.jpg");
+
+
+}
+
+.page-id-1827 p.min_contant.seamless {
+    padding-top: 0px;
+    padding-left: 19px;
+}
+
+
+.page-id-1827 h4.drive_sec {
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #fff;
+}
+
+
+
+/* end */
+
+/* Clara page page-id-1829  */
+
+
+.page-id-1829 .thuml {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/02/CLARA.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+       margin-left: 172px;
+    margin-top: -13px;
+}
+.page-id-1829 .thumr {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/02/location-based-advertising.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+    margin-left: 172px;
+    margin-top: -16px;
+}
+
+.page-id-1829 .thumc {
+    padding-left: 206px;
+    margin-bottom: -78px;
+}
+
+.page-id-1829 .ntop {
+    padding-right: 45px;
+}
+
+
+.page-id-1829 .divpiat1{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/3a4-clara-benefits-1.jpg") !important;
+
+}
+
+.page-id-1829 .divpiat2{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/3a4-clara-benefits-2.jpg");
+ 
+
+}
+
+.page-id-1829 .divpiat3{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/3a4-clara-benefits-3.jpg");
+  
+}
+
+.page-id-1829 .divpiat4{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/3a4-clara-benefits-4.jpg");
+
+
+}
+
+.page-id-1829 .divpiat5{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/3a4-clara-benefits-5.jpg");
+
+
+}
+
+.page-id-1829 p.min_contant.seamless {
+    padding-top: 0px;
+    padding-left: 19px;
+}
+
+
+
+.page-id-1829 h4.drive_sec {
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #fff;
+}
+
+/* end */
+
+/** Technologies Section **/
+/** Level 3 **/
+
+/* Trip page page-id-131  */
+
+.page-id-131 .vb-ho{
+    
+    padding-left: 74px;
+    padding-right: 80px;
+}
+
+.page-id-131 .divlab{
+    
+    background-color: #000;
+}
+.page-id-131 .plab{
+    
+    color:#fff;
+}
+
+.page-id-131 .divlab2{
+    
+    background-color: #555555;
+    
+}
+
+.page-id-131 .content1_a {
+    background: #28282e;
+    padding: 4px;
+    min-height: 150px;
+    margin: auto;
+    width: 215px;
+}
+
+.page-id-131 .divpica{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/01/qi-template-4-1.png"); 
+    height: 150px;
+    width: 350px;
+
+}
+
+.page-id-131 .divpica2{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/01/11.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+    height: 273px;
+    width: 950px;
+
+}
+
+.page-id-131 .hu {
+    padding-right: 104px;
+}
+
+.page-id-131 .hu2 {
+    padding-left: 166px;
+}
+.page-id-131 .redb {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    z-index: 8;
+    position: absolute;
+    top: 172px;
+    right: 206px;
+    opacity: 0.4;
+}
+
+
+.page-id-131 .qilo{
+    
+     background-image: url("http://52.76.165.56/wp-content/uploads/2017/01/qi-template-4-1m.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+   
+    height: 301px;
+    width: 301px;
+    padding-left: 86px;
+    
+}
+
+.page-id-131 .benefit_wrapper .benefits_content_wrapper .benefits_content2 {
+    background: #555555;
+    padding: 40px;
+    min-height: 150px;
+    margin: auto;
+}
+
+.page-id-131 .benefit_wrapper .benefits_content_wrapper .benefits_content2 h4 {
+    color: #fff;
+    font-family: 'dincondmediumopentype';
+    font-size: 26px;
+    font-weight: 600;
+    min-height: 44px;
+}
+
+.page-id-131 .benefit_wrapper .benefits_content_wrapper .benefits_content2 p {
+    color: #fff;
+    font-family: 'SanFranciscoDisplayRegular';
+    font-size: 16px;
+}
+
+.page-id-131 .vc_column-inner2s {
+    box-sizing: border-box;
+    padding-left: 81px;
+    padding-right: 81px;
+    width: 100%;
+        }
+        
+.page-id-131 strong.sep {
+    border-bottom: solid 4px #c52730;
+    display: inline-block;
+    width: 51px;
+}
+.page-id-131 .jhy {
+    width: 70%;
+    margin: 0px auto;
+    
+}
+.page-id-131 .ntop {
+    padding-right: 45px;
+}
+
+.page-id-131 .thuml {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/01/22.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+    margin-left: 171px;
+    margin-top: -67px;
+}
+.page-id-131 .thumr {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/01/2-1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+    margin-left: 212px;
+    margin-top: -16px;
+}
+
+.page-id-131 .thumc {
+    padding-left: 206px;
+    margin-bottom: -78px;
+}
+
+/* end */
+
+/* QORS page page-id-136  */
+
+.page-id-136 .vb-ho{
+    
+    padding-left: 74px;
+    padding-right: 80px;
+}
+
+.page-id-136 .divlab{
+    
+    background-color: #000;
+}
+.page-id-136 .plab{
+    
+    color:#fff;
+}
+
+.page-id-136 .divlab2{
+    
+    background-color: #555555;
+    
+}
+
+.page-id-136 .content1_a {
+    background: #28282e;
+    padding: 4px;
+    min-height: 150px;
+    margin: auto;
+    width: 215px;
+}
+
+.page-id-136 .divpica{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/01/qi-template-4-1.png"); 
+    height: 150px;
+    width: 350px;
+
+}
+
+.page-id-136 .divpica2{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/01/11.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+    height: 273px;
+    width: 950px;
+
+}
+
+.page-id-136 .hu {
+    padding-right: 104px;
+}
+
+.page-id-136 .hu2 {
+    padding-left: 166px;
+}
+.page-id-136 .redb {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    z-index: 8;
+    position: absolute;
+    top: 172px;
+    right: 206px;
+    opacity: 0.4;
+}
+
+
+.page-id-136 .qilo{
+    
+     background-image: url("http://52.76.165.56/wp-content/uploads/2017/01/qi-template-4-1m.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+   
+    height: 301px;
+    width: 301px;
+    padding-left: 86px;
+    
+}
+
+.page-id-136 .benefit_wrapper .benefits_content_wrapper .benefits_content2 {
+    background: #555555;
+    padding: 40px;
+    min-height: 150px;
+    margin: auto;
+}
+
+.page-id-136 .benefit_wrapper .benefits_content_wrapper .benefits_content2 h4 {
+    color: #fff;
+    font-family: 'dincondmediumopentype';
+    font-size: 26px;
+    font-weight: 600;
+    min-height: 44px;
+}
+
+.page-id-136 .benefit_wrapper .benefits_content_wrapper .benefits_content2 p {
+    color: #fff;
+    font-family: 'SanFranciscoDisplayRegular';
+    font-size: 16px;
+}
+
+.page-id-136 .vc_column-inner2s {
+    box-sizing: border-box;
+    padding-left: 81px;
+    padding-right: 81px;
+    width: 100%;
+        }
+        
+.page-id-136 strong.sep {
+    border-bottom: solid 4px #c52730;
+    display: inline-block;
+    width: 51px;
+}
+.page-id-136 .jhy {
+    width: 70%;
+    margin: 0px auto;
+    
+}
+.page-id-136 .ntop {
+    padding-right: 45px;
+}
+
+.page-id-136 .thuml {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/01/22.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+    margin-left: 171px;
+    margin-top: -67px;
+}
+.page-id-136 .thumr {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/01/2-1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+    margin-left: 212px;
+    margin-top: -16px;
+}
+
+.page-id-136 .thumc {
+    padding-left: 206px;
+    margin-bottom: -78px;
+}
+
+/* end */
+
+/* Naviq page page-id-1839  */
+
+.page-id-1839 .vb-ho{
+    
+    padding-left: 74px;
+    padding-right: 80px;
+}
+
+.page-id-1839 .divlab{
+    
+    background-color: #000;
+}
+.page-id-1839 .plab{
+    
+    color:#fff;
+}
+
+.page-id-1839 .divlab2{
+    
+    background-color: #555555;
+    
+}
+
+.page-id-1839 .content1_a {
+    background: #28282e;
+    padding: 4px;
+    min-height: 150px;
+    margin: auto;
+    width: 215px;
+}
+
+.page-id-1839 .divpica{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/01/qi-template-4-1.png"); 
+    height: 150px;
+    width: 350px;
+
+}
+
+.page-id-1839 .divpica2{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/01/11.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+    height: 273px;
+    width: 950px;
+
+}
+
+.page-id-1839 .hu {
+    padding-right: 104px;
+}
+
+.page-id-1839 .hu2 {
+    padding-left: 166px;
+}
+.page-id-1839 .redb {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    z-index: 8;
+    position: absolute;
+    top: 172px;
+    right: 206px;
+    opacity: 0.4;
+}
+
+
+.page-id-1839 .qilo{
+    
+     background-image: url("http://52.76.165.56/wp-content/uploads/2017/01/qi-template-4-1m.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+   
+    height: 301px;
+    width: 301px;
+    padding-left: 86px;
+    
+}
+
+.page-id-1839 .benefit_wrapper .benefits_content_wrapper .benefits_content2 {
+    background: #555555;
+    padding: 40px;
+    min-height: 150px;
+    margin: auto;
+}
+
+.page-id-1839 .benefit_wrapper .benefits_content_wrapper .benefits_content2 h4 {
+    color: #fff;
+    font-family: 'dincondmediumopentype';
+    font-size: 26px;
+    font-weight: 600;
+    min-height: 44px;
+}
+
+.page-id-1839 .benefit_wrapper .benefits_content_wrapper .benefits_content2 p {
+    color: #fff;
+    font-family: 'SanFranciscoDisplayRegular';
+    font-size: 16px;
+}
+
+.page-id-1839 .vc_column-inner2s {
+    box-sizing: border-box;
+    padding-left: 81px;
+    padding-right: 81px;
+    width: 100%;
+        }
+        
+.page-id-1839 strong.sep {
+    border-bottom: solid 4px #c52730;
+    display: inline-block;
+    width: 51px;
+}
+.page-id-1839 .jhy {
+    width: 70%;
+    margin: 0px auto;
+    
+}
+.page-id-1839 .ntop {
+    padding-right: 45px;
+}
+
+.page-id-1839 .thuml {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/01/22.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+    margin-left: 171px;
+    margin-top: -67px;
+}
+.page-id-1839 .thumr {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/01/2-1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+    margin-left: 212px;
+    margin-top: -16px;
+}
+
+.page-id-1839 .thumc {
+    padding-left: 206px;
+    margin-bottom: -78px;
+}
+
+/* end */
+
+/* Mapsync page page-id-1866  */
+
+.page-id-1866 .vb-ho{
+    
+    padding-left: 74px;
+    padding-right: 80px;
+}
+
+.page-id-1866 .divlab{
+    
+    background-color: #000;
+}
+.page-id-1866 .plab{
+    
+    color:#fff;
+}
+
+.page-id-1866 .divlab2{
+    
+    background-color: #555555;
+    
+}
+
+.page-id-1866 .content1_a {
+    background: #28282e;
+    padding: 4px;
+    min-height: 150px;
+    margin: auto;
+    width: 215px;
+}
+
+.page-id-1866 .divpica{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/01/qi-template-4-1.png"); 
+    height: 150px;
+    width: 350px;
+
+}
+
+.page-id-1866 .divpica2{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/01/11.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+    height: 273px;
+    width: 950px;
+
+}
+
+.page-id-1866 .hu {
+    padding-right: 104px;
+}
+
+.page-id-1866 .hu2 {
+    padding-left: 166px;
+}
+.page-id-1866 .redb {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    z-index: 8;
+    position: absolute;
+    top: 172px;
+    right: 206px;
+    opacity: 0.4;
+}
+
+
+.page-id-1866 .qilo{
+    
+     background-image: url("http://52.76.165.56/wp-content/uploads/2017/01/qi-template-4-1m.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+   
+    height: 301px;
+    width: 301px;
+    padding-left: 86px;
+    
+}
+
+.page-id-1866 .benefit_wrapper .benefits_content_wrapper .benefits_content2 {
+    background: #555555;
+    padding: 40px;
+    min-height: 150px;
+    margin: auto;
+}
+
+.page-id-1866 .benefit_wrapper .benefits_content_wrapper .benefits_content2 h4 {
+    color: #fff;
+    font-family: 'dincondmediumopentype';
+    font-size: 26px;
+    font-weight: 600;
+    min-height: 44px;
+}
+
+.page-id-1866 .benefit_wrapper .benefits_content_wrapper .benefits_content2 p {
+    color: #fff;
+    font-family: 'SanFranciscoDisplayRegular';
+    font-size: 16px;
+}
+
+.page-id-1866 .vc_column-inner2s {
+    box-sizing: border-box;
+    padding-left: 81px;
+    padding-right: 81px;
+    width: 100%;
+        }
+        
+.page-id-1866 strong.sep {
+    border-bottom: solid 4px #c52730;
+    display: inline-block;
+    width: 51px;
+}
+.page-id-1866 .jhy {
+    width: 70%;
+    margin: 0px auto;
+    
+}
+.page-id-1866 .ntop {
+    padding-right: 45px;
+}
+
+.page-id-1866 .thuml {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/01/22.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+    margin-left: 171px;
+    margin-top: -67px;
+}
+.page-id-1866 .thumr {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/01/2-1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+    margin-left: 212px;
+    margin-top: -16px;
+}
+
+.page-id-1866 .thumc {
+    padding-left: 206px;
+    margin-bottom: -78px;
+}
+
+/* end */
+
+/** Solution Section **/
+/** Level 3 **/
+/** GIS GPS section **/
+
+/* Connected Navigation page page-id-1669  */
+
+.page-id-1669 .thuml {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/01/2-1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+       margin-left: 185px;
+    margin-top: -4px;
+}
+.page-id-1669 .thumr {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/01/2-1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+    margin-left: 172px;
+    margin-top: -16px;
+}
+
+.page-id-1669 .thumc {
+    padding-left: 206px;
+    margin-bottom: -78px;
+}
+
+.page-id-1669 .ntop {
+    padding-right: 45px;
+}
+
+.page-id-1669 .divpiat1{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2a1-connected-benefits-1-1.jpg") !important;
+
+}
+
+.page-id-1669 .divpiat2{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2a1-connected-benefits-2.jpg");
+ 
+
+}
+
+.page-id-1669 .divpiat3{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2a1-connected-benefits-3.jpg");
+  
+}
+
+.page-id-1669 .divpiat4{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2a1-connected-benefits-4.jpg");
+
+
+}
+
+.page-id-1669 .divpiat5{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2a1-connected-benefits-5.jpg");
+
+
+}
+.page-id-1669 p.min_contant.seamless {
+    padding-top: 0px;
+    padding-left: 19px;
+}
+
+.page-id-1669 h4.drive_sec {
+    padding-top: 27px;
+    padding-left: 20px;
+    color: #fff;
+}
+
+/* end */
+
+/* Maps page page-id-1790  */
+
+
+.page-id-1790 .thuml {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/02/map.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+       margin-left: 172px;
+    margin-top: -13px;
+}
+.page-id-1790 .thumr {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/02/map.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+    margin-left: 172px;
+    margin-top: -16px;
+}
+
+.page-id-1790 .thumc {
+    padding-left: 206px;
+    margin-bottom: -78px;
+}
+
+.page-id-1790 .ntop {
+    padding-right: 45px;
+}
+
+
+.page-id-1790 .divpiat1{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2a2-maps-benefits-1.jpg") !important;
+
+}
+
+.page-id-1790 .divpiat2{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2a2-maps-benefits-2.jpg");
+ 
+
+}
+
+.page-id-1790 .divpiat3{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2a2-maps-benefits-3.jpg");
+  
+}
+
+.page-id-1790 .divpiat4{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2a2-maps-benefits-4.jpg");
+
+
+}
+
+.page-id-1790 p.min_contant.seamless {
+    padding-top: 0px;
+    padding-left: 19px;
+}
+
+.page-id-1790 h4.drive_sec {
+    padding-top: 27px;
+    padding-left: 20px;
+    color: #fff;
+}
+
+/* end */
+
+
+/* Travel Claims page page-id-1793  */
+
+
+.page-id-1793 .thuml {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/01/22.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+       margin-left: 172px;
+    margin-top: -13px;
+}
+.page-id-1793 .thumr {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/02/smart-city-solutions.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+    margin-left: 172px;
+    margin-top: -16px;
+}
+
+.page-id-1793 .thumc {
+    padding-left: 206px;
+    margin-bottom: -78px;
+}
+
+.page-id-1793 .ntop {
+    padding-right: 45px;
+}
+/* end */
+
+/** Fleet Management Section **/
+
+/* Vehicle Tracking page page-id-1799  */
+
+
+.page-id-1799 .thuml {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/02/fleet-management-solution.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+       margin-left: 172px;
+    margin-top: -13px;
+}
+.page-id-1799 .thumr {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/01/2-1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+    margin-left: 172px;
+    margin-top: -16px;
+}
+
+.page-id-1799 .thumc {
+    padding-left: 206px;
+    margin-bottom: -78px;
+}
+
+.page-id-1799 .ntop {
+    padding-right: 45px;
+}
+.page-id-1799 .divpiat1{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2b1-vehicle-benefits-1.jpg")!important;
+
+}
+
+.page-id-1799 .divpiat2{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2b1-vehicle-benefits-2.jpg")!important;
+ 
+
+}
+
+.page-id-1799 .divpiat3{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2b1-vehicle-benefits-3.jpg")!important;
+  
+}
+.page-id-1799 .divpiat4{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2b1-vehicle-benefits-4.jpg")!important;
+
+}
+
+.page-id-1799 .divpiat5{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2b1-vehicle-benefits-5.jpg")!important;
+ 
+
+}
+
+
+.page-id-1799 p.min_contant.seamless {
+    padding-top: 0px;
+    padding-left: 19px;
+}
+
+.page-id-1799 .bg_image {
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 350px;
+}
+
+.page-id-1799 h4.drive_sec {
+    padding-top: 27px;
+    padding-left: 20px;
+    color: #fff;
+}
+
+/* end */
+
+/* Workforce management page page-id-1803  */
+
+
+.page-id-1803 .benefit_wrapper .benefits_content_wrapper .benefits_content1 {
+    min-height: 204px;
+}
+
+.page-id-1803 .thuml {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/02/fleet-management-solution.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+       margin-left: 172px;
+    margin-top: -13px;
+}
+.page-id-1803 .thumr {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/02/TRACKSYNQ-PLUS.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+    margin-left: 172px;
+    margin-top: -16px;
+}
+
+.page-id-1803 .thumc {
+    padding-left: 206px;
+    margin-bottom: -78px;
+}
+
+.page-id-1803 .ntop {
+    padding-right: 45px;
+}.divpiat1{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2b2-workforce-benefits-1.jpg")!important;
+
+}
+
+.page-id-1803 .divpiat2{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2b2-workforce-benefits-2.jpg")!important;
+ 
+
+}
+
+.page-id-1803 .divpiat3{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2b2-workforce-benefits-3.jpg")!important;
+  
+}
+.page-id-1803 .divpiat4{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2b2-workforce-benefits-4.jpg")!important;
+
+}
+
+.page-id-1803 .divpiat5{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2b2-workforce-benefits-5.jpg")!important;
+ 
+
+}
+
+
+.page-id-1803 p.min_contant.seamless {
+    padding-top: 0px;
+    padding-left: 19px;
+}
+
+.page-id-1803 h4.drive_sec {
+    padding-top: 27px;
+    padding-left: 20px;
+    color: #fff;
+}
+
+
+/* end */
+
+/* Optimization system page page-id-1806  */
+
+
+.page-id-1806 .benefit_wrapper .benefits_content_wrapper .benefits_content1 {
+    min-height: 197px;
+}
+
+.page-id-1806 .thuml {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/02/fleet-management-solution.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+       margin-left: 172px;
+    margin-top: -13px;
+}
+.page-id-1806 .thumr {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/01/22.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+    margin-left: 172px;
+    margin-top: -16px;
+}
+
+.page-id-1806 .thumc {
+    padding-left: 206px;
+    margin-bottom: -78px;
+}
+
+.page-id-1806 .ntop {
+    padding-right: 45px;
+}
+
+.page-id-1806 .divpiat1{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2b3-optimization-benefits-1.jpg")!important;
+
+}
+
+.page-id-1806 .divpiat2{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2b3-optimization-benefits-2.jpg")!important;
+ 
+
+}
+
+.page-id-1806 .divpiat3{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2b3-optimization-benefits-3.jpg")!important;
+  
+}
+.page-id-1806 .divpiat4{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2b3-optimization-benefits-3.jpgg")!important;
+
+}
+
+
+
+.page-id-1806 p.min_contant.seamless {
+    padding-top: 0px;
+    padding-left: 19px;
+}
+
+.page-id-1806 h4.drive_sec {
+    padding-top: 27px;
+    padding-left: 20px;
+    color: #fff;
+}
+
+
+
+/* end */
+
+/* Taxi dispatch page page-id-1808  */
+
+
+.page-id-1808 .benefit_wrapper .benefits_content_wrapper .benefits_content1 {
+    min-height: 202px;
+}
+
+.page-id-1808 .thuml {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/02/smart-taxi-solutions-1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+       margin-left: 172px;
+    margin-top: -13px;
+}
+.page-id-1808 .thumr {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/02/QORS.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+    margin-left: 172px;
+    margin-top: -16px;
+}
+
+.page-id-1808 .thumc {
+    padding-left: 206px;
+    margin-bottom: -78px;
+}
+
+.page-id-1808 .ntop {
+    padding-right: 45px;
+}
+
+.page-id-1808 .divpiat1{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2b4-taxi-benefits-1.jpg")!important;
+
+}
+
+.page-id-1808 .divpiat2{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2b4-taxi-benefits-2.jpg")!important;
+ 
+
+}
+
+.page-id-1808 .divpiat3{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2b4-taxi-benefits-3.jpg")!important;
+  
+}
+.page-id-1808 .divpiat4{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2b4-taxi-benefits-4.jpg")!important;
+  
+}
+.page-id-1808 p.min_contant.seamless {
+    padding-top: 0px;
+    padding-left: 19px;
+}
+
+
+.page-id-1808 h4.drive_sec {
+    padding-top: 27px;
+    padding-left: 20px;
+    color: #fff;
+}
+
+/* end */
+
+/** Smart city analytics section **/
+/* level 3 **/
+
+/* Data analytics page page-id-1810  */
+
+
+.page-id-1810 .benefit_wrapper .benefits_content_wrapper .benefits_content1 {
+    min-height: 200px;
+}
+
+.page-id-1810 .thuml {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/02/technologies.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+       margin-left: 172px;
+}
+.page-id-1810 .thumr {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/01/2-1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+    margin-left: 172px;
+    margin-top: -16px;
+}
+
+.page-id-1810 .thumc {
+    position:relative;left:50%;
+    top:-77px;
+}
+
+.page-id-1810 .ntop {
+    padding-right: 45px;
+}
+.page-id-1810 .divpiat1{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/01/2c1-data-benefits-1.jpg")!important;
+
+}
+
+.page-id-1810 .divpiat2{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/01/2c1-data-benefits-2.jpg")!important;
+ 
+
+}
+
+.page-id-1810 .divpiat3{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/01/2c1-data-benefits-3.jpg")!important;
+  
+}
+.page-id-1810 p.min_contant.seamless {
+    padding-top: 0px;
+    padding-left: 19px;
+}
+
+.page-id-1810 h4.drive_sec {
+    padding-top: 27px;
+    padding-left: 20px;
+    color: #fff;
+}
+
+/* end */
+
+/* Predictive Parking page page-id-1815  */
+
+
+.page-id-1815 .benefit_wrapper .benefits_content_wrapper .benefits_content1 {
+    min-height: 210px;
+}
+
+.page-id-1815 .thuml {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/01/22.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+       margin-left: 172px;
+    margin-top: -67px;
+}
+.page-id-1815 .thumr {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/01/2-1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+    margin-left: 172px;
+    margin-top: -16px;
+}
+
+.page-id-1815 .thumc {
+    padding-left: 206px;
+    margin-bottom: -78px;
+}
+
+.page-id-1815 .ntop {
+    padding-right: 45px;
+}
+
+.page-id-1815 .divpiat1{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2c2-predictive-benefits-1.jpg")!important;
+
+}
+
+.page-id-1815 .divpiat2{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2c2-predictive-benefits-2.jpg")!important;
+ 
+
+}
+
+.page-id-1815 .divpiat3{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2c2-predictive-benefits-3.jpg")!important;
+  
+}
+.page-id-1815 .divpiat4{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2c2-predictive-benefits-4.jpg")!important;
+  
+}
+.page-id-1815 p.min_contant.seamless {
+    padding-top: 0px;
+    padding-left: 19px;
+}
+
+
+.page-id-1815 .thuml_download {
+    float: left;
+    z-index: 1;
+}
+
+.page-id-1815 .thuml_download a {
+    background: url(http://52.76.165.56/wp-content/uploads/2017/02/res.png) no-repeat;
+    width: 90px;
+    height: 32px;
+    display: inline-block;
+    background-size: 100%;
+    margin-right: 5px;
+        position: relative;
+    top: -72px;
+    right: -4px;
+}
+.page-id-1815 .googleplay {
+    background-position: 0 -32px !important;
+}
+.page-id-1815 .appstore {
+    background-position: 0 0 !important;
+}
+
+.page-id-1815 h4.drive_sec {
+    padding-top: 27px;
+    padding-left: 20px;
+    color: #fff;
+}
+
+
+/* end */
+
+/* Multi Modal Transportation page page-id-1817  */
+
+
+.page-id-1817 .benefit_wrapper .benefits_content_wrapper .benefits_content1 {
+    min-height: 177px;
+}
+
+.page-id-1817 .thuml {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/01/22.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+       margin-left: 172px;
+    margin-top: -13px;
+}
+.page-id-1817 .thumr {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/01/2-1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+    margin-left: 172px;
+    margin-top: -16px;
+}
+
+.page-id-1817 .thumc {
+    padding-left: 206px;
+    margin-bottom: -78px;
+}
+
+.page-id-1817 .ntop {
+    padding-right: 45px;
+}
+.page-id-1817 .divpiat1{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2c3-multi-modal-benefits-1.jpg")!important;
+
+}
+
+.page-id-1817 .divpiat2{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2c3-multi-modal-benefits-2.jpg")!important;
+ 
+
+}
+
+.page-id-1817 .divpiat3{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2c3-multi-modal-benefits-3.jpg")!important;
+  
+}
+.page-id-1817 .divpiat4{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2c3-multi-modal-benefits-4.jpg")!important;
+  
+}
+
+
+.page-id-1817 .thuml_download {
+    float: left;
+    z-index: 1;
+}
+
+.page-id-1817 .thuml_download a {
+    background: url(http://52.76.165.56/wp-content/uploads/2017/02/res.png) no-repeat;
+    width: 90px;
+    height: 32px;
+    display: inline-block;
+    background-size: 100%;
+    margin-right: 5px;
+        position: relative;
+    top: 87px;
+    right: 139px;
+}
+.page-id-1817 .googleplay {
+    background-position: 0 -32px !important;
+}
+.page-id-1817 .appstore {
+    background-position: 0 0 !important;
+}
+
+.page-id-1817 p.min_contant.seamless {
+    padding-top: 0px;
+    padding-left: 19px;
+}
+
+.page-id-1817 h4.drive_sec {
+    padding-top: 27px;
+    padding-left: 20px;
+    color: #fff;
+}
+
+/* end */
+
+/* Location based advertising page page-id-1819  */
+
+
+.page-id-1819 .benefit_wrapper .benefits_content_wrapper .benefits_content1 {
+    min-height: 202px;
+}
+
+.page-id-1819 .thuml {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/02/CLARA.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+       margin-left: 172px;
+    margin-top: -13px;
+}
+.page-id-1819 .thumr {
+    background-image: url(http://52.76.165.56/wp-content/uploads/2017/02/CLARA.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 137px;
+    width: 172px;
+    padding-left: 0px;
+    margin-left: 172px;
+    margin-top: -16px;
+}
+
+.page-id-1819 .thumc {
+    padding-left: 206px;
+    margin-bottom: -78px;
+}
+
+.page-id-1819 .ntop {
+    padding-right: 45px;
+}
+.page-id-1819 .divpiat1{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2c4-location-benefits-1.jpg")!important;
+
+}
+
+.page-id-1819 .divpiat2{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2c4-location-benefits-2.jpg")!important;
+ 
+
+}
+
+.page-id-1819 .divpiat3{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2c4-location-benefits-3.jpg")!important;
+  
+}
+.page-id-1819 .divpiat4{
+    background-image: url("http://52.76.165.56/wp-content/uploads/2017/02/2c4-location-benefits-4.jpg")!important;
+  
+}
+.page-id-1819 p.min_contant.seamless {
+    padding-top: 0px;
+    padding-left: 19px;
+}
+
+.page-id-1819 .thuml_download {
+    float: left;
+    z-index: 1;
+}
+
+.page-id-1819 .thuml_download a {
+    background: url(http://52.76.165.56/wp-content/uploads/2017/02/res.png) no-repeat;
+    width: 90px;
+    height: 32px;
+    display: inline-block;
+    background-size: 100%;
+    margin-right: 5px;
+        position: relative;
+    top: 87px;
+    right: 139px;
+}
+.page-id-1819 .googleplay {
+    background-position: 0 -32px !important;
+}
+.page-id-1819 .appstore {
+    background-position: 0 0 !important;
+}
+
+
+.page-id-1819 h4.drive_sec {
+    padding-top: 27px;
+    padding-left: 20px;
+    color: #fff;
+}
+
+/* end */
+
+/** end of on page custom css till date 09.02.2017 **/
+
+

@@ -1,0 +1,694 @@
+
+#mega-menu-wrap-top-navigation #mega-menu-top-navigation > li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-item {
+    
+ padding-left: 25px;
+    height: 100%;
+    padding-top: 20px;
+    border-right: solid 2px rgb(220, 222, 225);
+}
+
+#mega-menu-top-navigation li a{
+  
+}
+
+#mega-menu-item-1623, #mega-menu-item-1611, #mega-menu-item-1604, #mega-menu-item-1590{
+border:0px !important;
+}
+
+#mega-menu-item-1966{
+visibility: hidden;
+}
+
+.carousel-control .prev_nav {
+    left: 40px;
+}
+.carousel-control{
+width:2% !IMPORTANT;
+}
+
+.carousel-control .next_nav, .carousel-control .prev_nav{
+border:none ;
+display: block;
+    visibility: visible;
+    opacity: 1;
+}
+
+.carousel-control {
+    top: -135px;
+}
+
+.carousel-control.right{
+left: 125px
+}
+
+
+nav.mobile_menu {
+    display: none !important;
+}
+
+
+.carousel-control .next_nav, .carousel-control .prev_nav{
+opacity: 1;
+}
+
+#mega-menu-item-1966{
+    visibility: hidden !important;
+}
+.q_social_icon_holder .fa-stack.fa-2x {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+}
+strong.sep_privet {
+    border-bottom: solid 4px #c52730;
+    display: inline-block;
+    width: 51px;
+    margin-left: 181px;
+}
+
+h2.seprt_opti {
+    color: #fff;
+    margin-left: 181px;
+}
+ul.travel_butllets.sect_pept li {
+    color: #fff;
+}
+
+div#gis_banner {
+    height: 217px;
+}
+
+img.side_dist {
+       margin-left: 7px;
+}
+
+.img_show {
+    margin-top: 177px;
+    margin-left: 11px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1200px) {
+.img_show {
+    display: none;
+}
+}
+
+.page-id-1787 .image.responsive,.page-id-2839 .image.responsive {
+    margin-top: 59px;
+}
+
+.page-id-2401 .image.responsive {
+    margin-top: 59px;
+}
+
+h2.sep_connt {
+    color: #fff !important;
+    margin-left: 30px;
+}
+
+strong.sep.main_seprt {
+    border-bottom: solid 4px #fff !important;
+    margin-left: 28px;
+
+}
+
+.gis_fram input {
+    background: transparent !important;
+    border-bottom: 1px solid #fff !important;
+   width: 30% !important;
+ margin-left: 23px !important;
+}
+
+.gis_fram label {
+    color: #fff;
+}
+.gis_fram p {
+    color: #fff;
+}
+.messag_div input.wpcf7-form-control.wpcf7-submit {
+    background: #fff;
+    color: #c1272d !important;
+    text-transform: uppercase !important;
+}
+
+.messag_div input.wpcf7-form-control.wpcf7-submit::after{
+       font-family: FontAwesome;
+    content: "\f178";
+    padding-left: 10px;
+}
+
+.over_text {
+    margin-top: -170px;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+ text-align: center;
+    
+}
+h5.inven_contan {
+    text-transform: capitalize;
+    color: #c52730;
+    padding-bottom: 11px;
+}
+
+a.direc {
+    background: transparent;
+    color: #c1272d;
+    border: 1px solid #c1272d;
+    padding: 7px 85px;
+   text-transform: uppercase;
+}
+
+a.direc:hover {
+    background: #c1272d;
+    color: #fff;
+    border: 1px solid #c1272d;
+    padding: 7px 85px;
+    text-transform: uppercase;
+}
+
+.gis_fram input#your_name {
+    display: inline;
+}
+.gis_fram input#your_number {
+    display: inline;
+}
+
+.iconic_img {
+    z-index: 9;
+    position: absolute;
+     top: 222px;
+    height: 62px;
+        right: 93px;
+    opacity: 0.8;
+}
+.gis_fram input#your_mail {
+    display: inline;
+}
+
+li#mega-menu-item-2509 {
+    visibility: hidden !important;
+}
+
+li#mega-menu-item-2506 {
+    visibility: hidden !important;
+}
+
+li#mega-menu-item-2505 {
+    visibility: hidden !important;
+}
+
+input.wpcf7-form-control.wpcf7-date, input.wpcf7-form-control.wpcf7-number, input.wpcf7-form-control.wpcf7-quiz, input.wpcf7-form-control.wpcf7-text, select.wpcf7-form-control.wpcf7-select, textarea.wpcf7-form-control.wpcf7-textarea { display: inline; line-height: 15px; margin: 0px 0 0; } .messag_div:after { content: '\f178'; font: normal normal normal 21px/1 FontAwesome; line-height: 35px; display: inline-block; width: 46px; color: #fff; text-align: center; height: 37px; position: relative; left: -27px; top: 2px; border-right: 1px solid #fff; border-top: 1px solid #fff; border-bottom: 1px solid #fff; } .gis_fram input { background: transparent !important; border-bottom: 1px solid #fff !important; width: 55% !important; margin-left: 14px !important; } a.direc { background: transparent; color: #c1272d ; border: 1px solid #c1272d ; padding: 7px 15px; text-transform: uppercase; display: block; text-align: center; }
+
+.messag_div input.wpcf7-form-control.wpcf7-submit {
+    margin-left: 84px;
+}
+
+p.contant_dumy {
+    z-index: 15;
+    position: absolute;
+    top: 14px;
+    height: 46px;
+    right: 38px;
+    color: #fff;
+}
+
+em.mar_space {
+    font-size: 12px;
+}
+
+.section_imge {
+    width: 29% !important;
+}
+.spac_close {
+    margin-top: 34px;
+}
+
+.maiun_style {
+    margin-left: -27px;
+}
+
+.bcr {
+    background-color: #c52730;
+    width: 51px;
+    height: 2px;
+    margin-left: 529px;
+margin-top: 12px;
+
+    /* top: 31px; */
+}
+
+.ind_sep{
+
+border-bottom: solid 4px #c52730;
+    display: inline-block;
+    width: 51px;
+}
+
+.ind_landing{
+width:90%;
+}
+img.side_dist1{
+
+margin-left:18px;
+}
+
+.img_show_industries{
+    width: 100px;
+    z-index: 9;
+    position: absolute;
+    top: 272px;
+    height: 83px;
+    left: 77px;
+    opacity: 0.6;
+}
+
+.page-id-1796 .image.responsive,.page-id-1799 .image.responsive,.page-id-173 .image.responsive,.page-id-1319 .image.responsive,.page-id-3102 .image.responsive,.page-id-1847 .image.responsive,.page-id-2955 .image.responsive,.page-id-2842 .image.responsive,.page-id-3022 .image.responsive {
+    margin-top: 59px;
+}
+
+.page-id-1767 .image.responsive,.page-id-1793 .image.responsive {
+    margin-top: 59px;
+}
+
+.page-id-1813 .image.responsive,.page-id-1790 .image.responsive  {
+    margin-top: 59px;
+}
+.page-id-1669 .image.responsive,.page-id-1774 .image.responsive {
+    margin-top: 59px;
+}
+
+.hy {
+    width: 66%;
+    margin: 0px auto;
+}
+
+.page-id-1803 .image.responsive,.page-id-1806 .image.responsive {
+    margin-top: 59px;
+}
+ 
+.page-id-1808 .image.responsive,.page-id-1810 .image.responsive, .page-id-1815 .image.responsive {
+    margin-top: 59px;
+}
+
+.page-id-1817 .image.responsive,.page-id-1819 .image.responsive,.page-id-2613 .image.responsive,.page-id-1866 .image.responsive ,.page-id-1839 .image.responsive{
+    margin-top: 59px;
+} 
+.page-id-2114 .image.responsive,.page-id-1821 .image.responsive,.page-id-1823 .image.responsive {
+    margin-top: 59px;
+} 
+
+strong.sp_mil {
+    margin-left: 12px;
+}
+
+
+.img_show_product{
+
+       width: 100px;
+    z-index: 9;
+    position: absolute;
+    top: 161px;
+    height: 83px;
+    left: 77px;
+    opacity: 0.6;
+}
+
+.ind_mar_left{
+margin-left:50px;
+}
+
+.prod_benfts{
+   padding-top:60px;
+}
+p.min_contant {
+    color: #fff;
+    margin-top: 45px;
+}
+ ul.tech_bulets li:before {
+    content: '\f069';
+    font-family: FontAwesome;
+    display: inline-block;
+    width: 15px;
+   margin-left:-1.9em;
+    color: #878787;
+    font-weight: 100;
+    font-size: 8px;
+    vertical-align: bottom;
+}
+.app_space{
+margin-bottom:15px;
+}
+.page-id-1783 .image.responsive,.page-id-1864 .image.responsive,.page-id-1825 .image.responsive,.page-id-1827 .image.responsive,.page-id-1829 .image.responsive{
+    margin-top: 59px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+.over_text {
+    position: absolute;
+    left: 131px;
+}
+}
+
+.prod_ben{
+
+min-height:183px;
+}
+
+.img_show_mainprod{
+    width: 100px;
+    z-index: 9;
+    position: absolute;
+    top: 172px;
+    height: 83px;
+    left: -42px;
+    opacity: 0.6;
+}
+
+.img_show2_prod_main{
+    width: 100px;
+    z-index: 9;
+    position: absolute;
+    top: 175px;
+    height: 83px;
+    right:88px;
+    opacity: 0.6;
+}
+
+.page-id-1829 .benefit_wrapper .benefits_content_wrapper .benefits_content1{
+min-height:183px;
+}
+.page-id-1825 .benefit_wrapper .benefits_content_wrapper .benefits_content1{
+min-height:255px;
+}
+
+.inven_text {
+    margin-top: 140px;
+    min-height: 215px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+.inven_text {
+    margin-top: 4px;
+}
+}
+
+.page-id-173 .two_columns_75_25>.column1{
+width:100%;
+float:none;
+}
+
+.gis_fra2 input {
+    background: transparent !important;
+    border-bottom: 1px solid black !important;
+   width: 45% !important;
+ margin-left: 23px !important;
+}
+
+.gis_fra2 label {
+    color: red;
+}
+.gis_fra2 p {
+    color: blue;
+}
+
+.article_left{
+width:43%;
+padding-left:100px;
+float:left;
+}
+.article_right{
+width:47%;
+padding-left:20px;
+float:right;
+}
+.clear{
+clear:both;
+}
+#mel_show{
+margin-top:40px;
+}
+
+.post_image:nth-child(3)
+{
+float:right!important;
+}
+
+.page-id-2466 .image.responsive{
+    margin-top: 59px;
+} 
+
+ul.bycategories.compan_left {
+    margin-left: 120px;
+}
+.carer_blogs{
+        border: 1px solid #cacaca;
+    width: 32%;
+    padding: 17px;
+    margin-left: 14px;
+    margin-bottom: 50px;
+min-height:325px;
+}
+.carer_titl{
+margin-bottom:24px;
+margin-top:10px;
+
+}
+
+.carer_titl i a{
+ font-family: 'Calluna-It'!important;
+font-size:16px;
+font-weight:400;
+    color: #28282E!important;
+}
+.outer_carer p{
+font-family: 'ProximaNova-Regular' !important;
+font-size:16px;
+font-weight:400;
+    color: #28282E!important;
+}
+
+.carer_dropdwn{
+    margin-bottom: 30px;
+    position: relative;
+    left: 87%;
+}
+
+.carer_dropdwn select{
+padding-top:13px;
+padding-bottom:13px;
+}
+.caer_main a{
+  font-family: 'Calluna-Semibold'!important;
+font-size:24px;
+font-weight:400;
+    color: #28282E!important;
+}
+li{
+color: #28282E!important;
+}
+.learn{
+margin-top:30px;
+
+}
+.carer_bulets,.tech_bulets{
+padding-left:30px;
+}
+ul.carer_bulets li:before{
+content: '\f10c';
+    font-family: FontAwesome;
+    display: inline-block;
+    width: 15px;
+    color: #878787;
+    font-weight: 100;
+    font-size: 8px;
+    vertical-align: bottom;
+margin-left:-1.9em;
+}
+.red_anc{
+font-size:20px;
+}
+
+.pert_section {
+    float: right;
+    margin-right: -58px;
+    margin-top: -84px;
+}
+
+.gis_fram input {
+    background: transparent !important;
+    border-bottom: 1px solid #fff !important;
+    width: 34% !important;
+    margin-left: 14px !important;
+}
+
+.gh label {
+    color: #fff;
+}
+
+.page-id-1669 .benefit_wrapper .benefits_content_wrapper .benefits_content{
+
+min-height:202px;
+}
+.casestudy h2 a,.custom_article h2 a,.custom_newsletter h2 a{
+   font-family: 'Calluna-Semibold'!important;
+  margin-bottom:10px;
+}
+.casestudy h2,.custom_article h2,.custom_newsletter h2 {
+  
+  margin-bottom:10px;
+}
+
+.casestudy span,.custom_article span,.custom_newsletter span{
+font-family: 'ProximaNova-Regular'!important;
+}
+.casestudy,.custom_article,.custom_newsletter{
+padding-bottom:13px;
+ 
+}
+.custom_space_img{
+width:49%;float:left;
+}
+.custom_space{
+width:48%;
+float:right;
+}
+
+.img_show.case_stud {
+    margin-top: -4px !important;
+    margin-left: -19px !important;
+}
+.custom_space_img{
+    float:left;
+width:45%;
+}
+.custom_space{
+float:right;
+width:48%;
+}
+.art_top {
+ margin-top: 20px;
+ padding-bottom: 40px;
+}
+.art_sep{
+border-bottom: solid 4px #c52730;
+    display: inline-block;
+    width: 51px;
+}
+.clear{
+clear:both;
+}
+
+.art_sidebr{
+   margin-top:20px;
+margin-bottom:40px;
+}
+.art_bord{
+border:1px solid #b9b9b9;
+width:38%;
+margin-right:35px;
+padding:37px;
+margin-bottom:40px;
+float:left;
+}
+.sid_head{
+margin-bottom:20px;
+margin-top:25px;
+
+}
+.it{
+font-style:italics;
+}
+.redbart
+{
+    position: absolute;
+    top: -47px;
+    left: 38%;
+    opacity: 0.6;
+}
+
+.side_total{
+padding-bottom:30px;
+}
+.art_main_side{
+margin-top:30px;
+}
+
+.bg_image {
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 350px;
+}
+
+.wdn{
+margin-right:80px;
+}
+.soln_img_right{
+padding-right:200px;
+}
+.sol_text p{
+font-size:20px;
+}
+.sol_text
+{
+text-align:center;
+margin-top:20px;
+}
+.sol_text a {
+    height: 30px;
+    line-height: 30px;
+    font-size: 13px;
+    color: white;
+    background: #c1272d;
+    border-color: #c1272d;
+    border-radius: 4px;
+    font-weight: bold;
+    margin: 0px 0px !important;
+    padding-top: 14px !important;
+}
+
+
+.apps_buton {
+    height: 30px !important;
+        line-height: 30px !important;
+    font-size: 15px !important;
+    padding: 12px 32px;
+    color: #c1272d !important;
+    background: #fff !important;
+    border-color: #fff !important;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.news_holder h2 a{
+
+font-family: 'Calluna-Semibold'!important;
+    margin-bottom: 10px;
+}
+.time{
+font-family: 'ProximaNova-Regular'!important;
+}
+
+.sep1{
+margin-bottom:20px;
+margin-top:20px;
+}
+
+.link_a{
+color:#c1272d;
+}
+
+h2.text_format {
+    text-transform: capitalize;
+       font-size: 32px;
+}
+.wpmm-orientation-vertical ul.wpmm-mega-wrapper > li > a.wp-mega-menu-link {
+font-size: 1.7rem;
+}
+.jsgrid .jsgrid-alt-row > .jsgrid-cell {
+    background: #fff;
+}
+.page-id-4684 .image.responsive {
+    margin-top: 59px;
+}
